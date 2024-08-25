@@ -6,6 +6,7 @@
 #include <list>
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 void signal_handler_impl(int signum);
 
@@ -14,7 +15,6 @@ void signal_handler_impl(int signum);
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #include <winsock.h>
-#include <time.h>
 
 typedef int socklen_t;
 
