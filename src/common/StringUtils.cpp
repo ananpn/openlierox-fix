@@ -751,7 +751,7 @@ static void charactersParsed(void* context, const xmlChar* ch, int len)
 }
 
 /* GCS: custom error function to ignore errors */
-static void xmlErrorHandlerDummy(void *, xmlErrorPtr)
+static void xmlErrorHandlerDummy(void *ctx, const xmlError *error)
 {
 	/* ignore all errors */
 }

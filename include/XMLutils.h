@@ -15,6 +15,7 @@
 // Created 24/7/08
 // Karel Petranek
 
+#include <libxml/parser.h>
 #include <string>
 #include <libxml/xmlmemory.h>
 #include "Color.h"

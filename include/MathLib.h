@@ -25,6 +25,8 @@
 
 #include "CVec.h"
 
+#include <cstdint>
+
 
 // Constants
 #define PI		3.14159265358979323846
